@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
 import Person from './Person/Person';
 
-class Persons extends Component
+class Persons extends PureComponent
 {
     static getDrivedStateFromProps( props, state )
     {
@@ -22,18 +22,20 @@ class Persons extends Component
 
     // }
 
-    shouldComponentUpdate( nextProps, nextState )
-    {
-        console.log( '[Person.js] shouldComponentUpdate' );
-        if( nextProps.person !== this.props.person )
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+    // shouldComponentUpdate( nextProps, nextState )
+    // {
+    //     console.log( '[Person.js] shouldComponentUpdate' );
+    //     if( nextProps.person !== this.props.person ||
+    //         nextProps.changed !== this.props.changed ||
+    //         nextProps.clicked !== this.props.clicked )
+    //     {
+    //         return true;
+    //     }
+    //     else
+    //     {
+    //         return false;
+    //     }
+    // }
 
     getSnapshotBeforeUpdate( prevProps, prevState )
     {
