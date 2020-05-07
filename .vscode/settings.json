@@ -1,0 +1,39 @@
+{
+  // Editor settings
+  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
+  "editor.rulers": [
+    120
+  ],
+  // Files
+  "files.trimTrailingWhitespace": true,
+  // JavaScript format
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  // TypeScript format
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  // Document This configuration
+  "docthis.includeMemberOfOnClassMembers": false,
+  "docthis.includeMemberOfOnInterfaceMembers": false,
+  "auto-close-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php"
+  ],
+  "window.zoomLevel": 0,
+  "html.format.wrapLineLength": 140,
+  "html.format.wrapAttributes": "auto",
+  "html.format.preserveNewLines": false,
+  "beautify.tabSize": 2,
+  "beautify.newline-between-rules": true,
+  "beautify.end-with-newline": true
+}
